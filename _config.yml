@@ -13,7 +13,7 @@ name                     : &name "Shi Quan"
 description              : &description "personal description"
 url                      : https://Ogatarina-sq.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Ogatarina-sq.github.io.github.io"
+repository               : "Ogatarina-sq.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # twitter
 facebook:
   username               :
   app_id                 :
@@ -83,11 +83,11 @@ author:
   name             : "Shi Quan"
   avatar           : "profile.png"
   bio              : "Keep calm and carry on"
-  location         : "Location"
+  location         : "Chengdu, Sichuan, China"
   employer         :
   pubmed           :  #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    :  #"http://yourfullgooglescholarurl.com"
-  email            :
+  email            :  "shiquan@std.uestc.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Ogatarina-sq"
+  github           : "Ogatarina-sq"
   google_plus      :
   keybase          :
   instagram        :
@@ -175,16 +175,16 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  Note:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  Literature:
     output: true
     permalink: /:collection/:path/
-  talks:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -209,10 +209,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _Note
   - scope:
       path: ""
-      type: teaching
+      type: note
     values:
       layout: single
       author_profile: true
@@ -227,19 +227,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _Literature
   - scope:
       path: ""
-      type: portfolio
+      type: literature
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _Research
   - scope:
       path: ""
-      type: talks
+      type: research
     values:
       layout: talk
       author_profile: true
