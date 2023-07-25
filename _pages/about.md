@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Quan Shi, a third-year B.S.  student at the University of Electronic Science and Technology of China (UESTC) , in the Department of the Information and Communication Engineering. My research interests lie in security & privacy in machine learning and communication, particularly Cryptography. If you would like to learn more about my research, I strongly recommend reading the blog posts.
+I am Quan Shi, a third-year B.S.  student at the University of Electronic Science and Technology of China (UESTC) , in the Department of the Information and Communication Engineering. My research interests lie in security & privacy in machine learning and communication, particularly Cryptography and Provable Security. If you would like to learn more about my research, I strongly recommend reading the blog posts.
 
 
 Education
