@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shi Quan @UESTC"
+title                    : "Shi Quan @NUS"
 title_separator          : "-"
 name                     : &name "Shi Quan"
 description              : &description "personal description"
