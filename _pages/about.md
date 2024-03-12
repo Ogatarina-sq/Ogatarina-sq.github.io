@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Quan Shi, I will join National University of Singapore (NUS) as a PhD student in 2024 Fall. I will work with  I'm insterested in post-quantum cryptography, lightweight protocols, security and privacy in IOT or hardware. My advisor will be [Prof.Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/) and [Prof.Gope](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/).
+I am Quan Shi, I will join National University of Singapore (NUS) as a PhD student in 2024 Fall. I'm insterested in post-quantum cryptography, lightweight protocols, security and privacy in IOT or hardware. My advisor will be [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/) and [Prof.Prosanta Gope](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/).
 
 
 Education
