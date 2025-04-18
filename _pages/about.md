@@ -28,9 +28,9 @@ shi.quan at u.nus.edu
 
 Publication
 ======
-**PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**\\
-Yang Yang, Quan Shi, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar\\
-In IEEE S&P Oakland 2025. (CCF-A)\\
+**PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**
+Yang Yang, Quan Shi, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar
+In IEEE S&P Oakland 2025. (CCF-A)
 
 
 
