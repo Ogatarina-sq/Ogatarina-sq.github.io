@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Quan Shi, I am first year PhD student in National University of Singapore (NUS). I'm insterested in computer network and protocols design. My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/).
+I am Quan Shi, I am second year PhD student in National University of Singapore (NUS). I'm insterested in computer network and protocols design. My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/).
 
 
 
@@ -28,8 +28,13 @@ shi.quan at u.nus.edu
 
 Publication
 ======
+
+**LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks**
+**Quan Shi**, Liying Wang, Prosanta Gope, Qi Liang, Haowen Wang, Qirui Liu, Chenren Xu, Shangguang Wang, Qing Li, Biplab Sikdar
+Accepted by Usenix Security 2026. (CCF-A)
+
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**
-Yang Yang, Quan Shi, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar
+Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar
 In IEEE S&P Oakland 2025. (CCF-A)
 
 
