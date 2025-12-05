@@ -17,10 +17,6 @@ Education
 + **2024-2028:**PhD, National University of Singapore (NUS), Singapore. 
 + **2020-2024:**Bachelor, University of Electronic Science and Technology of China (UESTC), China.
 
-Intern
-======
-2025.04-2025.08 Peking University, SOAR group.
-
 
 Contact
 ======
