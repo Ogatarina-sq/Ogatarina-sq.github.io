@@ -32,7 +32,10 @@ Publication
 
 **LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks**
 **Quan Shi**, Liying Wang, Prosanta Gope, Qi Liang, Haowen Wang, Qirui Liu, Chenren Xu, Shangguang Wang, Qing Li, Biplab Sikdar
-Accepted by Usenix Security 2026. (Distinguished Paper Award!)
+Accepted by Usenix Security 2026. [Paper](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan).
+
+<span class="award-badge">Distinguished Paper Award Winner</span>
+
 
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar
