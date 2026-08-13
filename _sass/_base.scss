@@ -232,6 +232,7 @@ figure {
   }
 }
 
+
 /* Figure captions */
 
 figcaption {
@@ -312,4 +313,18 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+
+// My custom components
+.award-badge {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.2rem 0.7rem;
+  color: #b58a45;
+  border: 1.5px solid #9c7638;
+  border-radius: 9999px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
 }
