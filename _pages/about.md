@@ -1,4 +1,5 @@
 ---
+layout: about
 permalink: /
 title: "Quan Shi"
 excerpt: "About me"
