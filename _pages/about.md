@@ -2,7 +2,12 @@
 permalink: /
 title: "Quan Shi"
 excerpt: "About me"
-author_profile: true
+
+subtitle: PhD student, NUS
+profile:
+  align: right
+  image: 
+  image_circular: true # crops the image to make it circular
 redirect_from: 
   - /about/
   - /about.html
@@ -27,11 +32,13 @@ Publication
 
 **LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks**
 **Quan Shi**, Liying Wang, Prosanta Gope, Qi Liang, Haowen Wang, Qirui Liu, Chenren Xu, Shangguang Wang, Qing Li, Biplab Sikdar
-Accepted by Usenix Security 2026. (CCF-A)
+Accepted by Usenix Security 2026. (Distinguished Paper Award!)
 
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar
 In IEEE S&P Oakland 2025. (CCF-A)
+
+
 
 
 
