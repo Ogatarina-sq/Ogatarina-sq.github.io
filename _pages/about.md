@@ -6,7 +6,7 @@ excerpt: "About me"
 subtitle: PhD student, NUS
 profile:
   align: right
-  image: 
+  image: profile1.jpg
   image_circular: true # crops the image to make it circular
 redirect_from: 
   - /about/
