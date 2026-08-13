@@ -1,14 +1,11 @@
 ---
 layout: about
-permalink: /
 title: "Quan Shi"
 excerpt: "About me"
-
 subtitle: PhD student, NUS
 profile:
   align: right
-  image: ../../figure/profile.png
-  image_circular: true # crops the image to make it circular
+  image: profile.png
 redirect_from: 
   - /about/
   - /about.html
@@ -42,8 +39,3 @@ Publication
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**  
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar  
 IEEE S&P Oakland 2025. 
-
-
-
-
-
