@@ -34,7 +34,7 @@ Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolm
 **Quan Shi**, Liying Wang, Prosanta Gope, Qi Liang, Haowen Wang, Qirui Liu, Chenren Xu, Shangguang Wang, Qing Li, Biplab Sikdar  
 *USENIX Security Symposium, 2026.*  
 [Paper](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan).  
-<span class="award-badge">Distinguished Paper Award Winner</span>
+<font color="#FF0000">Distinguished Paper Award Winner</font>
 
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**  
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar  
