@@ -28,7 +28,7 @@ Seleted Publication
 
 **ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning**  
 Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain.
-Accepted by ACM CCS 2026. 
+*Accepted by ACM CCS 2026.* 
 
 
 **LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks**  
@@ -39,4 +39,4 @@ Accepted by ACM CCS 2026.
 
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**  
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar  
-IEEE S&P Oakland 2025. 
+*IEEE S&P 2025.* 
