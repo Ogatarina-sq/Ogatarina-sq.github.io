@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Quan Shi, I am second year PhD student in National University of Singapore (NUS). I'm insterested in computer network and protocols design. My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/).
-
+I am Quan Shi, I am 3rd year PhD student in National University of Singapore (NUS). My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/) and [Dr. Prosanta Gope](https://sites.google.com/view/prosantagope). I am excited to have collaboration in Next-generation Network System and Security (5G, 6G, Satellite), and AI-related topics (LLM, Agent, embodied). I also have a solid foundation in cryptography and algorithm design. If you are interested, please send me an email. 
 
 
 Education
@@ -24,7 +23,6 @@ shi.quan at u.nus.edu
 
 Seleted Publication
 ======
-
 
 **ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning**  
 Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain.  
