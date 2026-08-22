@@ -27,7 +27,7 @@ Seleted Publication
 
 
 **ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning**  
-Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain.
+Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain.  
 *Accepted by ACM CCS 2026.* 
 
 
