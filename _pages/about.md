@@ -9,7 +9,7 @@ profile:
   image_circular: true # crops the image to make it circular
 ---
 
-I am Quan Shi, I am 3rd year PhD student in National University of Singapore (NUS). My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/) and [Dr. Prosanta Gope](https://sites.google.com/view/prosantagope). I am excited to have collaboration in Next-generation Network System and Security (5G, 6G, Satellite), and AI-related topics (LLM, Agent, embodied). I also have a solid foundation in cryptography and algorithm design. If you are interested, please send me an email. 
+I am Quan Shi, I am 3rd year PhD student in National University of Singapore (NUS). My advisor is [Prof.Biplab Sikdar](https://cde.nus.edu.sg/ece/staff/biplab-sikdar/) and [Dr. Prosanta Gope](https://sites.google.com/view/prosantagope). My paper has been published in top computer science conferences (USENIX Sec, IEEE S&P, ACM CCS, etc). In 2026, my leading work LPG received the **Distinguished Paper Award** in Usenix Security Symposium. When undergraduate, I won the Outstanding Winner award in the Mathematical Contest in Modeling (MCM), COMAP. I am excited to have collaboration in **Next-generation Network System and Security (5G, 6G, Satellite)**, and **AI-related topics (LLM, Agent, embodied)**. I also have a solid foundation in cryptography and algorithm design. If you are interested, please send me an email. 
 
 
 Education
