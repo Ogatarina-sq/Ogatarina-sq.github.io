@@ -29,12 +29,12 @@ Seleted Publication
 Liza Ahmad, **Quan Shi**, Joshua Haworth,Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain.  
 *Accepted by ACM CCS 2026.* 
 
-
 **LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks**  
 **Quan Shi**, Liying Wang, Prosanta Gope, Qi Liang, Haowen Wang, Qirui Liu, Chenren Xu, Shangguang Wang, Qing Li, Biplab Sikdar  
-*USENIX Security Symposium, 2026.*  
-[Paper](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan).   <font color="#FF0000">Distinguished Paper Award Winner</font>
+*USENIX Security Symposium, 2026.*  (362 of 3,028, 13.2%)
+[Paper](https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan).   <font color="#FF0000">Distinguished Paper Award Winner</font> (9 of 362)
 
 **PGUS: Pretty Good User Security with a Novel Sanitizable Blind Signature**  
 Yang Yang, **Quan Shi**, Prosanta Gope, Behzad Abdolmaleki, Biplab Sikdar  
-*IEEE S&P 2025.* 
+*IEEE S&P 2025.*  (257 of 1740, 14.8%)
+[Paper](https://www.ece.nus.edu.sg/stfpage/bsikdar/papers/snp_25.pdf). 
