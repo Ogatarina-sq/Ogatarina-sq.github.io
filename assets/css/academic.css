@@ -101,6 +101,7 @@ html[data-theme="dark"] .moon-icon { display: none; }
 .award-badge { display: inline-flex; align-items: center; gap: 7px; background: var(--award-background); color: var(--award-text); border: 1px solid var(--award-border); border-radius: 5px; padding: 5px 10px; font-size: 13px; font-weight: 650; line-height: 1.5; }
 .trophy { font-size: 20px; line-height: 1; }
 .award-note { font-size: 12px; color: var(--award-text); }
+.award-certificate { font-size: 12px; white-space: nowrap; }
 .acceptance { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
 .publication-links { display: flex; flex-wrap: wrap; gap: 8px; }
 .publication-links a { padding: 2px 10px; font-size: 12px; color: var(--text); border: 1px solid var(--muted); border-radius: 3px; line-height: 1.7; }
@@ -127,7 +128,7 @@ html[data-theme="dark"] .moon-icon { display: none; }
 .honor-period { color: var(--muted); font-size: 14px; padding-top: 4px; }
 .honor h2 { display: flex; align-items: baseline; gap: 10px; font-size: 22px; font-weight: 500; margin-bottom: 12px; color: var(--award-text); }
 .honor p { margin-bottom: 9px; }
-.honor-link { display: inline-block; font-size: 13px; margin-top: 4px; }
+.honor-actions { margin-top: 14px; }
 @media (max-width: 650px) {
   .container { padding-inline: 22px; }
   .nav { gap: 10px; min-height: 58px; }

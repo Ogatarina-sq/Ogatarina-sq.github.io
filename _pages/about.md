@@ -14,7 +14,7 @@ permalink: /
 
   <p>My research focuses on <strong>next-generation network systems and security</strong>, including 5G, 6G, and satellite networks. I am also interested in AI, including large language models, agents, and embodied AI, with a strong foundation in cryptography and algorithm design.</p>
 
-  <p>My work has appeared at <strong>USENIX Security, IEEE S&amp;P, and ACM CCS</strong>. My leading work, <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan">LPG</a>, received the <span class="inline-award"><span aria-hidden="true">🏆</span> Distinguished Paper Award</span> at USENIX Security 2026.</p>
+  <p>My work has appeared at <strong>USENIX Security, IEEE S&amp;P, and ACM CCS</strong>. My leading work, <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan">LPG</a>, received the <a class="inline-award" href="{{ '/sec26_distinguished_paper-shi.pdf' | relative_url }}" aria-label="View USENIX Security Distinguished Paper Award certificate (PDF)"><span aria-hidden="true">🏆</span> Distinguished Paper Award</a> at USENIX Security 2026.</p>
 
   <p>Before NUS, I received my bachelor's degree from the <a href="https://www.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a> in 2024.</p>
 
@@ -50,7 +50,7 @@ permalink: /
       <div><p><strong>University of Electronic Science and Technology of China</strong></p><p class="education-degree">Bachelor's degree · China</p></div>
     </div>
   </div>
-  <p class="honors-note"><strong>Undergraduate honor:</strong> Outstanding Winner, Mathematical Contest in Modeling (MCM), COMAP.</p>
+  <p class="honors-note"><strong>Undergraduate honor:</strong> <a href="{{ '/awards/#mcm' | relative_url }}">Outstanding Winner, Mathematical Contest in Modeling (MCM), 2022</a>, COMAP.</p>
 </section>
 
 <section class="section" aria-labelledby="activities-heading">

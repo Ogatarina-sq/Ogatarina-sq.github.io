@@ -18,16 +18,23 @@ permalink: /awards/
         <p><strong>USENIX Security Symposium</strong></p>
         <p>For <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan">LPG: Raise Your Location Privacy Game in Direct-to-Cell LEO Satellite Networks</a>.</p>
         <p class="award-note">9 awarded papers · top 0.3% of submissions</p>
-        <a class="honor-link" href="{{ '/publications/#paper-lpg' | relative_url }}">View publication <span aria-hidden="true">→</span></a>
+        <div class="publication-links honor-actions">
+          <a href="{{ '/publications/#paper-lpg' | relative_url }}">View publication <span aria-hidden="true">→</span></a>
+          <a href="{{ '/sec26_distinguished_paper-shi.pdf' | relative_url }}" aria-label="View USENIX Security Distinguished Paper Award certificate (PDF)">Certificate (PDF) <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </li>
     <li class="honor" id="mcm">
-      <div class="honor-period">Undergraduate</div>
+      <div class="honor-period">2022</div>
       <div>
         <h2><span class="trophy" aria-hidden="true">🏆</span> Outstanding Winner</h2>
         <p><strong>Mathematical Contest in Modeling (MCM)</strong></p>
         <p>Consortium for Mathematics and Its Applications (COMAP)</p>
-        <p class="education-degree">Awarded during my undergraduate studies at the University of Electronic Science and Technology of China.</p>
+        <p class="education-degree">Problem A · Team 2210307 · University of Electronic Science and Technology of China</p>
+        <div class="publication-links honor-actions">
+          <a href="https://www.contest.comap.com/undergraduate/contests/mcm/contests/2022/results/#a" aria-label="View official 2022 MCM Problem A results">Official results <span aria-hidden="true">↗</span></a>
+          <a href="https://www.comap-math.org/mcm/2022Certs/2210307.pdf" aria-label="View 2022 MCM Outstanding Winner certificate for team 2210307 (PDF)">Certificate (PDF) <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </li>
   </ol>

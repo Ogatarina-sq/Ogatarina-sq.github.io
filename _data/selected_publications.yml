@@ -6,6 +6,7 @@
   venue_full: USENIX Security Symposium
   acceptance: "362 / 2,750 submissions · 13.2%"
   award: Distinguished Paper Award
+  award_certificate: /sec26_distinguished_paper-shi.pdf
   award_note: "9 awarded papers · top 0.3% of submissions"
   paper: https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan
   artifact: https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final46.pdf

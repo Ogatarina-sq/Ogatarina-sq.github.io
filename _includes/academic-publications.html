@@ -9,6 +9,7 @@
       {% if paper.award %}
       <div class="award-line">
         <span class="award-badge"><span class="trophy" aria-hidden="true">🏆</span> {{ paper.award }}</span>
+        {% if paper.award_certificate %}<a class="award-certificate" href="{{ paper.award_certificate | relative_url }}" aria-label="View {{ paper.award | escape }} certificate for {{ paper.title | escape }} (PDF)">Certificate (PDF) <span aria-hidden="true">↗</span></a>{% endif %}
         <span class="award-note">{{ paper.award_note }}</span>
       </div>
       {% endif %}

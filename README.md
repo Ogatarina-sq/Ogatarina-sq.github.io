@@ -12,10 +12,12 @@ prominent trophy badge inspired by the award treatment on
 ## Updating content
 
 - `_pages/about.md`: biography, news, education, professional activities, and contact.
-- `_pages/awards.md`: research and mathematical modeling awards.
+- `_pages/awards.md`: research and mathematical modeling awards, official results,
+  and certificate links.
 - `_data/selected_publications.yml`: the shared publication list displayed on both pages.
   List papers in display order. Set `award` and `award_note` to show a trophy badge,
-  and `arxiv` to add a preprint link.
+  `award_certificate` to link an award PDF, and `arxiv` to add a preprint link.
+- `sec26_distinguished_paper-shi.pdf`: USENIX Security Distinguished Paper Award certificate.
 - `profile.jpg`: the original portrait, cropped into a circle using CSS.
 - `_config.yml`: name, description, email, and GitHub account.
 - `_data/navigation.yml`: the About, Publications, and Awards navigation links.
