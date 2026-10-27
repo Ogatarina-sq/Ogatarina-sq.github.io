@@ -1,11 +1,3 @@
-- id: zk-esim
-  year: 2026
-  venue: ACM CCS
-  title: "ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning"
-  authors: "Liza Ahmad, <strong>Quan Shi</strong>, Joshua Haworth, Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain"
-  venue_full: ACM Conference on Computer and Communications Security
-  status: Accepted
-
 - id: lpg
   year: 2026
   venue: USENIX Security
@@ -17,6 +9,15 @@
   award_note: "9 awarded papers · top 0.3% of submissions"
   paper: https://www.usenix.org/conference/usenixsecurity26/presentation/shi-quan
   artifact: https://secartifacts.github.io/usenixsec2026/appendix-files/sec26cycle1ae-final46.pdf
+
+- id: zk-esim
+  year: 2026
+  venue: ACM CCS
+  title: "ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning"
+  authors: "Liza Ahmad, <strong>Quan Shi</strong>, Joshua Haworth, Yilu Dong, Prosanta Gope, Behzad Abdolmaleki, Syed Rafiul Hussain"
+  venue_full: ACM Conference on Computer and Communications Security
+  status: Accepted
+  arxiv: https://arxiv.org/abs/2609.07654
 
 - id: pgus
   year: 2025

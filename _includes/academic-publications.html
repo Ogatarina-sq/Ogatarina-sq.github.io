@@ -3,7 +3,7 @@
   <li class="publication{% if paper.award %} publication-awarded{% endif %}" id="{{ include.id_prefix }}{{ paper.id }}">
     <div class="publication-venue"><span>{{ paper.venue }}</span><span class="publication-year">{{ paper.year }}</span></div>
     <div class="publication-details">
-      <h3>{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+      <h3>{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% elsif paper.arxiv %}<a href="{{ paper.arxiv }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
       <p class="publication-authors">{{ paper.authors }}</p>
       <p class="publication-conference"><em>{{ paper.venue_full }}, {{ paper.year }}.</em>{% if paper.status %} <span class="paper-status">{{ paper.status }}</span>{% endif %}</p>
       {% if paper.award %}
@@ -13,9 +13,10 @@
       </div>
       {% endif %}
       {% if paper.acceptance %}<p class="acceptance">Acceptance: {{ paper.acceptance }}</p>{% endif %}
-      {% if paper.paper or paper.artifact %}
+      {% if paper.paper or paper.artifact or paper.arxiv %}
       <div class="publication-links">
         {% if paper.paper %}<a href="{{ paper.paper }}" aria-label="Read paper: {{ paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if paper.arxiv %}<a href="{{ paper.arxiv }}" aria-label="Read arXiv preprint: {{ paper.title | escape }}">arXiv <span aria-hidden="true">↗</span></a>{% endif %}
         {% if paper.artifact %}<a href="{{ paper.artifact }}" aria-label="Read artifact appendix: {{ paper.title | escape }}">Artifact <span aria-hidden="true">↗</span></a>{% endif %}
       </div>
       {% endif %}

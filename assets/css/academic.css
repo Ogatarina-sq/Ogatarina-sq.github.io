@@ -119,6 +119,15 @@ html[data-theme="dark"] .moon-icon { display: none; }
 .site-footer { background: var(--footer-background); color: var(--footer-text); font-size: 11px; padding-block: 13px; text-align: center; }
 .site-footer a { color: inherit; }
 .publications-page .post-header { margin-bottom: 32px; }
+.awards-page .post-header { margin-bottom: 32px; }
+.honors-list { list-style: none; padding: 0; margin: 0; }
+.honor { display: grid; grid-template-columns: 124px 1fr; gap: 24px; padding-block: 30px; border-bottom: 1px solid var(--line); }
+.honor:first-child { padding-top: 0; }
+.honor:last-child { border-bottom: 0; }
+.honor-period { color: var(--muted); font-size: 14px; padding-top: 4px; }
+.honor h2 { display: flex; align-items: baseline; gap: 10px; font-size: 22px; font-weight: 500; margin-bottom: 12px; color: var(--award-text); }
+.honor p { margin-bottom: 9px; }
+.honor-link { display: inline-block; font-size: 13px; margin-top: 4px; }
 @media (max-width: 650px) {
   .container { padding-inline: 22px; }
   .nav { gap: 10px; min-height: 58px; }
@@ -143,6 +152,15 @@ html[data-theme="dark"] .moon-icon { display: none; }
   .section-heading > a { font-size: 12px; }
   .contact-links { gap: 20px; }
   .design-credit { display: block; }
+  .honor { grid-template-columns: 1fr; gap: 10px; }
+  .honor h2 { font-size: 21px; }
+}
+@media (max-width: 360px) {
+  .container { padding-inline: 16px; }
+  .nav-links { gap: 12px; }
+  .nav-links > a { font-size: 13px; }
+  .site-name { font-size: 16px; }
+  .theme-toggle { width: 30px; }
 }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 @media print {

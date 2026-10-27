@@ -3,7 +3,7 @@
 Personal academic website for Quan Shi at the National University of Singapore,
 served with Jekyll and GitHub Pages at <https://ogatarina-sq.github.io/>.
 
-The About and Publications pages use a lightweight layout inspired by
+The About, Publications, and Awards pages use a lightweight layout inspired by
 [Haolin He's website](https://harlandzzc.github.io/) and
 [al-folio](https://github.com/alshedivat/al-folio). The LPG publication has a
 prominent trophy badge inspired by the award treatment on
@@ -12,11 +12,13 @@ prominent trophy badge inspired by the award treatment on
 ## Updating content
 
 - `_pages/about.md`: biography, news, education, professional activities, and contact.
+- `_pages/awards.md`: research and mathematical modeling awards.
 - `_data/selected_publications.yml`: the shared publication list displayed on both pages.
-  Set `award` and `award_note` to show a trophy badge on a publication.
+  List papers in display order. Set `award` and `award_note` to show a trophy badge,
+  and `arxiv` to add a preprint link.
 - `profile.jpg`: the original portrait, cropped into a circle using CSS.
 - `_config.yml`: name, description, email, and GitHub account.
-- `_data/navigation.yml`: the About and Publications navigation links.
+- `_data/navigation.yml`: the About, Publications, and Awards navigation links.
 - `assets/css/academic.css`: page layout, responsive styles, and light/dark colors.
 - `assets/js/academic-theme.js`: theme preference and toggle behavior.
 
