@@ -1,16 +1,13 @@
 ---
-layout: archive
-title: "Publications"
+layout: academic
+title: publications
 permalink: /publications/
-author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<article class="publications-page">
+  <header class="post-header">
+    <h1>publications</h1>
+    <p class="subtitle">Network systems, security, and cryptography.</p>
+  </header>
+  {% include academic-publications.html id_prefix="paper-" %}
+</article>

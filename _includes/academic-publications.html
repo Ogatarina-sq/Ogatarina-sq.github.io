@@ -1,0 +1,25 @@
+<ol class="publication-list">
+  {% for paper in site.data.selected_publications %}
+  <li class="publication{% if paper.award %} publication-awarded{% endif %}" id="{{ include.id_prefix }}{{ paper.id }}">
+    <div class="publication-venue"><span>{{ paper.venue }}</span><span class="publication-year">{{ paper.year }}</span></div>
+    <div class="publication-details">
+      <h3>{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h3>
+      <p class="publication-authors">{{ paper.authors }}</p>
+      <p class="publication-conference"><em>{{ paper.venue_full }}, {{ paper.year }}.</em>{% if paper.status %} <span class="paper-status">{{ paper.status }}</span>{% endif %}</p>
+      {% if paper.award %}
+      <div class="award-line">
+        <span class="award-badge"><span class="trophy" aria-hidden="true">🏆</span> {{ paper.award }}</span>
+        <span class="award-note">{{ paper.award_note }}</span>
+      </div>
+      {% endif %}
+      {% if paper.acceptance %}<p class="acceptance">Acceptance: {{ paper.acceptance }}</p>{% endif %}
+      {% if paper.paper or paper.artifact %}
+      <div class="publication-links">
+        {% if paper.paper %}<a href="{{ paper.paper }}" aria-label="Read paper: {{ paper.title | escape }}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if paper.artifact %}<a href="{{ paper.artifact }}" aria-label="Read artifact appendix: {{ paper.title | escape }}">Artifact <span aria-hidden="true">↗</span></a>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

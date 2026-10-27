@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title != 'about' %}{{ page.title | escape }} | {% endif %}{{ site.name | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{{ site.name | escape }} — {{ page.title | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/profile.jpg' | absolute_url }}">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <script src="{{ '/assets/js/academic-theme.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a class="site-name" href="{{ '/' | relative_url }}"><strong>Quan</strong> Shi</a>
+        <div class="nav-links">
+          {% for item in site.data.navigation.main %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme" aria-pressed="false" id="theme-toggle">
+            <svg class="moon-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+            <svg class="sun-icon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main id="main" class="container main-content">{{ content }}</main>
+    <footer class="site-footer">
+      <div class="container">
+        © {{ site.time | date: '%Y' }} Quan Shi. Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+        <span class="design-credit">Design inspired by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.</span>
+      </div>
+    </footer>
+  </body>
+</html>
